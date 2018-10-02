@@ -35,6 +35,7 @@
     Example of inserting an obfuscator after compilation could look like this:
 
         <target name="-post-compile">
+            <obfuscate>
                 <fileset dir="${build.classes.dir}"/>
             </obfuscate>
         </target>
